@@ -86,7 +86,7 @@ function applicationList() {
  * @apiName Application Detail
  * @apiGroup Application
  *
- * @apiDescription 获取应用详情，尚未完成
+ * @apiDescription 获取应用详情
  *
  * @apiParam {String} appName   应用名
  *
@@ -97,18 +97,19 @@ function applicationList() {
  * @apiSuccess {Date} timeStamp 处理结束时间
  * @apiSuccess {Date} startTime 请求开始时间
  * @apiSuccess {Object} result 返回结果
- * @apiSuccess {String} result.account 用户名
  * @apiSuccess {String} result.userId 用户Id
+ * @apiSuccess {Object} result.application 应用详情
  */
 function applicationDetail() {
 }
+
 /**
  * @api {delete} /app/:appId 5.删除
  * @apiVersion 0.0.1
  * @apiName Delete Application
  * @apiGroup Application
  *
- * @apiDescription 删除应用，尚未完成
+ * @apiDescription 删除应用
  *
  * @apiParam {String} appId   应用Id
  *

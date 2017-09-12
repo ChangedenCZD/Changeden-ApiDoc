@@ -1,0 +1,20 @@
+{
+  "name": "Bunny动态数据库-Api文档",
+  "version": "0.0.1",
+  "description": "Bunny动态数据库-Api文档",
+  "title": "Bunny动态数据库 Api文档",
+  "url" : "https://bunnydb.changeden.net",
+  "sampleUrl": "https://bunnydb.changeden.net",
+  "header": {
+    "title": "Bunny 动态数据库",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "技术支持 Changeden.net",
+    "filename": "footer.md"
+  },
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

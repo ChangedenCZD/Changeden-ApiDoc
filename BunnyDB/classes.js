@@ -1,5 +1,5 @@
 /**
- * @api {put} /class/ 1.添加
+ * @api {post} /class/ 1.添加
  * @apiVersion 0.0.1
  * @apiName Create Class
  * @apiGroup Class

@@ -1,5 +1,5 @@
 /**
- * @api {put} /app/ 1.创建
+ * @api {post} /app/ 1.创建
  * @apiVersion 0.0.1
  * @apiName Create Application
  * @apiGroup Application

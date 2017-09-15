@@ -23,7 +23,7 @@ function checkUser() {
 }
 
 /**
- * @api {put} /user/ 2.注册
+ * @api {post} /user/ 2.注册
  * @apiVersion 0.0.1
  * @apiName Sign Up
  * @apiGroup User

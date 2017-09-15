@@ -32,6 +32,8 @@ function checkUser() {
  *
  * @apiParam {String} account   用户名
  * @apiParam {String} password  用户密码
+ * @apiParam {String} email  绑定邮箱
+ * @apiParam {String} verificationCode  验证码
  *
  * @apiSuccess {Number} code  状态码
  * @apiSuccess {String} message 响应信息

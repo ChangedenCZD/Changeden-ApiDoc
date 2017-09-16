@@ -1,16 +1,16 @@
 {
-  "name": "Bunny动态数据库-Api文档",
+  "name": "BunnyDB动态数据库-Api文档",
   "version": "0.0.1",
-  "description": "Bunny动态数据库-Api文档",
-  "title": "Bunny动态数据库 Api文档",
+  "description": "BunnyDB是兔子人网的兔子人计划中的一个。使用BunnyDB，直接通过简单的Api调用，即可完成以往繁琐的建表与手动增删字段的操作。",
+  "title": "BunnyDB动态数据库-Api文档",
   "url" : "https://bunnydb.changeden.net",
   "sampleUrl": "https://bunnydb.changeden.net",
   "header": {
-    "title": "Bunny 动态数据库",
+    "title": "BunnyDB动态数据库-Api文档",
     "filename": "header.md"
   },
   "footer": {
-    "title": "技术支持 Changeden.net",
+    "title": "关于Bunny",
     "filename": "footer.md"
   },
   "template": {

@@ -7,7 +7,7 @@
  * @apiDescription 在某个类中添加记录
  *
  * @apiParam {String} classId 类Id
- * @apiParam (Request-Body) {String} key value
+ * @apiParam {String} key value
  *
  * @apiHeader {String} X-APP-ID 应用Id
  * @apiHeader {String} X-APP-KEY 应用操作码
@@ -32,7 +32,7 @@ function insertObject() {
  * @apiDescription 修改某个记录
  *
  * @apiParam {String} objectId   记录Id
- * @apiParam (Request-Body) {String} key value
+ * @apiParam {String} key value
  *
  * @apiHeader {String} X-APP-ID 应用Id
  * @apiHeader {String} X-APP-KEY 应用操作码
@@ -81,6 +81,11 @@ function deleteObject() {
  * @apiDescription 获取某个类的记录列表
  *
  * @apiParam {String} classId   类Id
+ *
+ * @apiParam {String} where   Sql中的Where语句
+ * @apiParam {String} groupBy   Sql中的Group By语句
+ * @apiParam {String} orderBy   Sql中的Order By语句
+ * @apiParam {String} limit   Sql中的Limit语句
  *
  * @apiHeader {String} X-APP-ID 应用Id
  * @apiHeader {String} X-APP-KEY 应用操作码
